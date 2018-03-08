@@ -14,7 +14,7 @@ public class Avaliacao {
 		}
 		
 		if (nota < 50) { 
-			JOptionPane.showMessageDialog( null, "Nopta Insuficiente!"); 
+			JOptionPane.showMessageDialog( null, "Nota Insuficiente!"); 
 		}
 		else if (nota <= 70) { 
 			JOptionPane.showMessageDialog( null, "Regular!"); 
