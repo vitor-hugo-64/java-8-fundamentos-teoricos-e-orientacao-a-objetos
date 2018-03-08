@@ -12,6 +12,7 @@ public class Carro {
 	}
 	
 	// CONSTRUTOR QUE SE PASSA PARAMETROS
+	// EM OUTRAS PALAVRAS ESSE SEGUNDO PARAMETRO É UMA FORMA DE POLIOMORFISMO
 	public Carro(float Consumo) {
 		this.consumo = consumo;
 	}

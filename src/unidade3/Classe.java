@@ -8,9 +8,9 @@ public class Classe {
 	
 	public static void main(String[] args) {
 		
-		Carro carro1 = new Carro();
+		Carro carro1 = new Carro(); // INSTANCIA UM NOVO OBJETO
 		
-		carro1.idCarro = 1;
+		carro1.idCarro = 1; // ATRIBUI OS DADOS AOS SEUS ATRIBUTOS
 		carro1.modelo = "gol";
 		carro1.placa = "jdk 001";
 		carro1.cor = "azul";
@@ -45,7 +45,11 @@ public class Classe {
 		locacao.valorLocado = 2 * 99.90f;
 	}
 	
-	public static void gerarRelatorioLocacao(LocalDate ...datas) { // 'LocalDate ...datas' - O VARARGS É UM RECURSO QUE PERMITE VOCE PASSAR QUANTOS ATRIBUTOS FOR NECESSÁRIO E MAIS TARDE ISSO VIRA UM ARRAY DENTRO DO METODO
+	// O VARARGS É UM RECURSO QUE PERMITE VOCE PASSAR QUANTOS ATRIBUTOS FOR NECESSÁRIO E MAIS TARDE ISSO VIRA UM ARRAY DENTRO DO METODO
+	// NESSA CASO ELE PODE IFORMAR VARIOS VALORES QUE SEJAM DO TIPÓ 'LocalDate' E TUDO SERA ARMAZENADO NA VARIÁVEL 'datas'
+	// A PALAVRA 'STATIC' PERMITE QUE O METODO SE TORNE UM MEMBRO DE CLASSE OU ESTÁTICO, ISSO SIGNIFICA QUE ELE PERTENCE A CLASSE E NÃO AO OBJETO
+	// NA PRÁTICA ISSO PERMITE USAR O METODO SEM PRECISAR INSTANCIAR UM NOVO OBJETO
+	public static void gerarRelatorioLocacao(LocalDate ...datas) { 
 		float totalFaturado = 2 * 99.90f;
 	}
 
