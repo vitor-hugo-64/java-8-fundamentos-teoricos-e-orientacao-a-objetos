@@ -20,7 +20,7 @@ public class Classe {
 		
 		totalCarros += 1;
 		
-		//Carro carro2 = new Carro();
+		//  Carro carro2 = new Carro();
 		
 		Cliente cliente1 = new Cliente();
 		
